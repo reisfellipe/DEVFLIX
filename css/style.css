@@ -1,0 +1,47 @@
+:root {
+    --vermelho: #E50914; 
+    --preto: #141414;
+    --font-grossa:'Black Han Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+header .logo {
+    font-family: 'Arial Black', Times;
+    color: var(--vermelho);
+    font-size: 30px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+}
