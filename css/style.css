@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Opens Sans', sans-serif;
     color: white;
 }
 
@@ -25,9 +25,10 @@ header .container {
 }
 
 header .logo {
-    font-family: 'Arial Black', Times;
+    font-family: 'Arial Black', sans-serif;
     color: var(--vermelho);
     font-size: 30px;
+    font-weight: 400;
 }
 
 header nav ul{
