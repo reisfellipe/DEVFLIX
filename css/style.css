@@ -116,3 +116,11 @@ header nav ul li a:hover {
     color: #141414;
     
 }
+
+/* CARROSEL */
+
+.box-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
