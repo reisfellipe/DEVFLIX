@@ -119,8 +119,31 @@ header nav ul li a:hover {
 
 /* CARROSEL */
 
-.box-filmes {
+.gallery {
+    height: 60vh;
+} 
+
+.carousel {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+
+.carousel .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    margin: 40px 20px;
+}
+
+/* .box-filmes {
     height: 100%;
     width: 100%;
     display: block;
-}
+} */
