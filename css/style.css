@@ -124,7 +124,7 @@ header nav ul li a:hover {
 } 
 
 .carousel {
-    overflow: scroll hidden;
+    overflow:hidden;
     height: 300px;
     width: 100%;
 }

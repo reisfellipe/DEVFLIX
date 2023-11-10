@@ -6,11 +6,11 @@ let idx = 0;
 function carrosel(){
     idx++;
 
-    if(ix > img.length - 1){
+    if(idx > img.length - 1){
         idx = 0;
     }
 
-    imgs.style.transform = `translateX(${idx * 300}px)`;
+    imgs.style.transform = `translateX(${idx * 250}px)`;
 
 }
 
